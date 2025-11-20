@@ -1,0 +1,2 @@
+[console_scripts]
+turtle_spawn = assignment1_rt.turtle_spawn:main

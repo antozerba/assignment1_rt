@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/spawn/spawn.egg-info
+writing ../../build/spawn/spawn.egg-info/PKG-INFO
+writing dependency_links to ../../build/spawn/spawn.egg-info/dependency_links.txt
+writing entry points to ../../build/spawn/spawn.egg-info/entry_points.txt
+writing requirements to ../../build/spawn/spawn.egg-info/requires.txt
+writing top-level names to ../../build/spawn/spawn.egg-info/top_level.txt
+writing manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'
+reading manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'
+writing manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn
+copying spawn/__init__.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn
+copying spawn/turtle_spawn.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn
+running install
+running install_lib
+creating /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn
+copying /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn/__init__.py -> /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn
+copying /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn/turtle_spawn.py -> /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn
+byte-compiling /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn/turtle_spawn.py to turtle_spawn.cpython-310.pyc
+running install_data
+creating /home/anto/Condivisa/ros_ws/install/spawn/share/ament_index/resource_index/packages
+copying resource/spawn -> /home/anto/Condivisa/ros_ws/install/spawn/share/ament_index/resource_index/packages
+copying package.xml -> /home/anto/Condivisa/ros_ws/install/spawn/share/spawn
+running install_egg_info
+Copying ../../build/spawn/spawn.egg-info to /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_spawn script to /home/anto/Condivisa/ros_ws/install/spawn/lib/spawn
+writing list of installed files to '/home/anto/Condivisa/ros_ws/build/spawn/install.log'

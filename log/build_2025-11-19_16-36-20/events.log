@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000328] (-) JobUnselected: {'identifier': 'spawn'}
+[0.000513] (assignment1_rt) JobQueued: {'identifier': 'assignment1_rt', 'dependencies': OrderedDict()}
+[0.000727] (assignment1_rt) JobStarted: {'identifier': 'assignment1_rt'}
+[0.092096] (assignment1_rt) JobProgress: {'identifier': 'assignment1_rt', 'progress': 'cmake'}
+[0.098337] (-) TimerEvent: {}
+[0.109720] (assignment1_rt) JobProgress: {'identifier': 'assignment1_rt', 'progress': 'build'}
+[0.118684] (assignment1_rt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anto/Condivisa/ros_ws/build/assignment1_rt', '--', '-j4', '-l4'], 'cwd': '/home/anto/Condivisa/ros_ws/build/assignment1_rt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anto/ros2_ws/install/sensingrigs_communicator/lib:/home/anto/ros2_ws/install/modem_communication/lib:/home/anto/ros2_ws/desert/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anto'), ('OLDPWD', '/home/anto/Condivisa/ros_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1885'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anto/Condivisa/ros_ws/install:/home/anto/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/anto/Condivisa/ros_ws/install/assignment1_rt/bin:/home/anto/ros2_ws/desert/bin:/opt/ros/humble/bin:/home/anto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anto:@/tmp/.ICE-unix/1860,unix/anto:/tmp/.ICE-unix/1860'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02b9d556_bfb2_4b5e_9312_b855f789f632'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.75YBG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anto/Condivisa/ros_ws/install/spawn:/home/anto/Condivisa/ros_ws/install/assignment1_rt:/home/anto/ros2_ws/install/sensingrigs_communicator:/home/anto/ros2_ws/install/modem_communication:/home/anto/ros2_ws/install/bluerov_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anto/Condivisa/ros_ws/build/assignment1_rt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages:/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/python3.10/site-packages:/home/anto/ros2_ws/install/sensingrigs_communicator/local/lib/python3.10/dist-packages:/home/anto/ros2_ws/install/modem_communication/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anto/Condivisa/ros_ws/install/assignment1_rt:/home/anto/ros2_ws/install/sensingrigs_communicator:/home/anto/ros2_ws/install/modem_communication:/home/anto/ros2_ws/install/bluerov_controller:/home/anto/Condivisa/ros_ws/install/spawn:/opt/ros/humble')]), 'shell': False}
+[0.198517] (-) TimerEvent: {}
+[0.285258] (assignment1_rt) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.298608] (-) TimerEvent: {}
+[0.398952] (-) TimerEvent: {}
+[0.499350] (-) TimerEvent: {}
+[0.599920] (-) TimerEvent: {}
+[0.700380] (-) TimerEvent: {}
+[0.800969] (-) TimerEvent: {}
+[0.901483] (-) TimerEvent: {}
+[1.001874] (-) TimerEvent: {}
+[1.102225] (-) TimerEvent: {}
+[1.202901] (-) TimerEvent: {}
+[1.233209] (assignment1_rt) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.280613] (assignment1_rt) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.282447] (assignment1_rt) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.286444] (assignment1_rt) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.301195] (assignment1_rt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302971] (-) TimerEvent: {}
+[1.317065] (assignment1_rt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.357610] (assignment1_rt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.366750] (assignment1_rt) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.404333] (-) TimerEvent: {}
+[1.505571] (-) TimerEvent: {}
+[1.605983] (-) TimerEvent: {}
+[1.708178] (-) TimerEvent: {}
+[1.808887] (-) TimerEvent: {}
+[1.909291] (-) TimerEvent: {}
+[1.911023] (assignment1_rt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.945573] (assignment1_rt) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[1.972733] (assignment1_rt) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.009373] (-) TimerEvent: {}
+[2.109690] (-) TimerEvent: {}
+[2.210014] (-) TimerEvent: {}
+[2.310323] (-) TimerEvent: {}
+[2.410646] (-) TimerEvent: {}
+[2.511072] (-) TimerEvent: {}
+[2.595192] (assignment1_rt) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.611171] (-) TimerEvent: {}
+[2.711443] (-) TimerEvent: {}
+[2.811925] (-) TimerEvent: {}
+[2.872267] (assignment1_rt) StdoutLine: {'line': b'-- Generating done\n'}
+[2.914317] (-) TimerEvent: {}
+[3.018960] (-) TimerEvent: {}
+[3.044472] (assignment1_rt) StdoutLine: {'line': b'-- Build files have been written to: /home/anto/Condivisa/ros_ws/build/assignment1_rt\n'}
+[3.119082] (-) TimerEvent: {}
+[3.151377] (assignment1_rt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/input_vel.dir/src/input_vel.cpp.o\x1b[0m\n'}
+[3.219794] (-) TimerEvent: {}
+[3.320217] (-) TimerEvent: {}
+[3.422323] (-) TimerEvent: {}
+[3.523303] (-) TimerEvent: {}
+[3.628138] (-) TimerEvent: {}
+[3.729337] (-) TimerEvent: {}
+[3.831334] (-) TimerEvent: {}
+[3.932112] (-) TimerEvent: {}
+[4.033820] (-) TimerEvent: {}
+[4.134287] (-) TimerEvent: {}
+[4.237148] (-) TimerEvent: {}
+[4.339620] (-) TimerEvent: {}
+[4.440237] (-) TimerEvent: {}
+[4.545716] (-) TimerEvent: {}
+[4.648503] (-) TimerEvent: {}
+[4.750241] (-) TimerEvent: {}
+[4.850720] (-) TimerEvent: {}
+[4.952013] (-) TimerEvent: {}
+[4.956667] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:17:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.957616] (assignment1_rt) StderrLine: {'line': b'   17 |     std::shared_ptr<rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>> publisher_;\n'}
+[4.958308] (assignment1_rt) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.962053] (assignment1_rt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[4.962511] (assignment1_rt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:6\x1b[m\x1b[K:\n'}
+[4.962941] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:134:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.963449] (assignment1_rt) StderrLine: {'line': b'  134 | using \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K =\n'}
+[4.964004] (assignment1_rt) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.964842] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:17:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.965474] (assignment1_rt) StderrLine: {'line': b'   17 |     std::shared_ptr<rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>> publisher_;\n'}
+[4.965986] (assignment1_rt) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.966914] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:17:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.967720] (assignment1_rt) StderrLine: {'line': b'   17 |     std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Twist\x1b[01;31m\x1b[K>>\x1b[m\x1b[K publisher_;\n'}
+[4.968401] (assignment1_rt) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.969104] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVelocityInputNode::VelocityInputNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.970137] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:14:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTwist\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.972221] (assignment1_rt) StderrLine: {'line': b'   14 |       publisher_ = this->create_publisher<<std_msgs::msg::\x1b[01;31m\x1b[KTwist\x1b[m\x1b[K>("turtle1/cmd_vel", 10);\n'}
+[4.972867] (assignment1_rt) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.973464] (assignment1_rt) StderrLine: {'line': b'\n'}
+[4.973901] (assignment1_rt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[4.974425] (assignment1_rt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:6\x1b[m\x1b[K:\n'}
+[4.974892] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:134:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.975366] (assignment1_rt) StderrLine: {'line': b'  134 | using \x1b[01;36m\x1b[KTwist\x1b[m\x1b[K =\n'}
+[4.976069] (assignment1_rt) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.976754] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:14:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.977440] (assignment1_rt) StderrLine: {'line': b'   14 | ublisher_ = this->create_publisher<<std_msgs::msg::Twist>(\x1b[01;35m\x1b[K"turtle1/cmd_vel"\x1b[m\x1b[K, 10);\n'}
+[4.978099] (assignment1_rt) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.978606] (assignment1_rt) StderrLine: {'line': b'\n'}
+[4.979113] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.979822] (assignment1_rt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:25:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kshut_down\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kshutdown\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.980536] (assignment1_rt) StderrLine: {'line': b'   25 |     rclcpp::\x1b[01;31m\x1b[Kshut_down\x1b[m\x1b[K;\n'}
+[4.981362] (assignment1_rt) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.981878] (assignment1_rt) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kshutdown\x1b[m\x1b[K\n'}
+[5.052816] (-) TimerEvent: {}
+[5.155766] (-) TimerEvent: {}
+[5.231686] (assignment1_rt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/input_vel.dir/build.make:76: CMakeFiles/input_vel.dir/src/input_vel.cpp.o] Error 1\n'}
+[5.233926] (assignment1_rt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_vel.dir/all] Error 2\n'}
+[5.234339] (assignment1_rt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.235973] (assignment1_rt) CommandEnded: {'returncode': 2}
+[5.255868] (-) TimerEvent: {}
+[5.356261] (-) TimerEvent: {}
+[5.456718] (-) TimerEvent: {}
+[5.557166] (-) TimerEvent: {}
+[5.657557] (-) TimerEvent: {}
+[5.747387] (assignment1_rt) JobEnded: {'identifier': 'assignment1_rt', 'rc': 2}
+[5.758117] (-) TimerEvent: {}
+[5.758728] (-) EventReactorShutdown: {}

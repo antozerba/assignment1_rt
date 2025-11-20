@@ -1,0 +1,25 @@
+[0.130s] Invoking command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anto/Condivisa/ros_ws/install/spawn:/opt/ros/humble /usr/bin/cmake --build /home/anto/Condivisa/ros_ws/build/assignment1_rt -- -j4 -l4
+[0.274s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.209s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.287s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.289s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.293s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.370s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.379s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.896s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.931s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[1.958s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.530s] -- Configuring done
+[2.820s] -- Generating done
+[2.979s] -- Build files have been written to: /home/anto/Condivisa/ros_ws/build/assignment1_rt
+[3.084s] [ 50%] [32mBuilding CXX object CMakeFiles/input_vel.dir/src/input_vel.cpp.o[0m
+[3.299s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[3.299s]     6 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[3.299s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.300s] compilation terminated.
+[3.301s] gmake[2]: *** [CMakeFiles/input_vel.dir/build.make:76: CMakeFiles/input_vel.dir/src/input_vel.cpp.o] Error 1
+[3.302s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_vel.dir/all] Error 2
+[3.303s] gmake: *** [Makefile:146: all] Error 2
+[3.304s] Invoked command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anto/Condivisa/ros_ws/install/spawn:/opt/ros/humble /usr/bin/cmake --build /home/anto/Condivisa/ros_ws/build/assignment1_rt -- -j4 -l4

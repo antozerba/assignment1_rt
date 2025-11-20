@@ -1,0 +1,10 @@
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:5:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    5 | #include [01;31m[K"std_msgs/msg/string.hpp"A[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/input_vel.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+    6 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/input_vel.dir/build.make:76: CMakeFiles/input_vel.dir/src/input_vel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_vel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

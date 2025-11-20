@@ -1,0 +1,10 @@
+setup.py
+assignment1_rt/__init__.py
+assignment1_rt/turtle_spawn.py
+build/assignment1_rt/assignment1_rt.egg-info/PKG-INFO
+build/assignment1_rt/assignment1_rt.egg-info/SOURCES.txt
+build/assignment1_rt/assignment1_rt.egg-info/dependency_links.txt
+build/assignment1_rt/assignment1_rt.egg-info/entry_points.txt
+build/assignment1_rt/assignment1_rt.egg-info/requires.txt
+build/assignment1_rt/assignment1_rt.egg-info/top_level.txt
+build/assignment1_rt/assignment1_rt.egg-info/zip-safe

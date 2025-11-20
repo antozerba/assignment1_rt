@@ -1,0 +1,2 @@
+[console_scripts]
+turtle_spawn = spawn.turtle_spawn:main
