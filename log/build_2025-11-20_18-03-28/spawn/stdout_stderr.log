@@ -1,0 +1,16 @@
+running egg_info
+writing ../../build/spawn/spawn.egg-info/PKG-INFO
+writing dependency_links to ../../build/spawn/spawn.egg-info/dependency_links.txt
+writing entry points to ../../build/spawn/spawn.egg-info/entry_points.txt
+writing requirements to ../../build/spawn/spawn.egg-info/requires.txt
+writing top-level names to ../../build/spawn/spawn.egg-info/top_level.txt
+reading manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'
+writing manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'
+running build
+running build_py
+copying spawn/__init__.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn
+copying spawn/turtle_spawn.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn
+running install
+running install_lib
+copying /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn/turtle_spawn 2.py -> /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn
+error: could not open '/home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn/turtle_spawn 2.py': Permission denied

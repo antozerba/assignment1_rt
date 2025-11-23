@@ -1,0 +1,12 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ui_node.dir/src/ui_node.cpp.o[0m
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/ui_node.cpp:[m[K In constructor ‘[01m[KUINode::UINode()[m[K’:
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/ui_node.cpp:23:84:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid UINode::getting_input()[m[K’
+   23 | _wall_timer(std::chrono::seconds(1),std::bind([01;31m[KUINode::getting_input[m[K, this) );
+      |                                               [01;31m[K~~~~~~~~^~~~~~~~~~~~~[m[K
+
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/ui_node.cpp:34:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   34 |     void [01;36m[Kgetting_input[m[K(){
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ui_node.dir/build.make:76: CMakeFiles/ui_node.dir/src/ui_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ui_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

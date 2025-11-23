@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/spawn/spawn.egg-info/PKG-INFO
+writing dependency_links to ../../build/spawn/spawn.egg-info/dependency_links.txt
+writing entry points to ../../build/spawn/spawn.egg-info/entry_points.txt
+writing requirements to ../../build/spawn/spawn.egg-info/requires.txt
+writing top-level names to ../../build/spawn/spawn.egg-info/top_level.txt
+reading manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'
+writing manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'
+running build
+running build_py
+copying spawn/__init__.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn
+copying spawn/turtle_spawn.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn
+running install
+running install_lib
+running install_data
+copying resource/spawn -> /home/anto/Condivisa/ros_ws/install/spawn/share/ament_index/resource_index/packages
+copying package.xml -> /home/anto/Condivisa/ros_ws/install/spawn/share/spawn
+running install_egg_info
+removing '/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/spawn/spawn.egg-info to /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_spawn script to /home/anto/Condivisa/ros_ws/install/spawn/lib/spawn
+writing list of installed files to '/home/anto/Condivisa/ros_ws/build/spawn/install.log'

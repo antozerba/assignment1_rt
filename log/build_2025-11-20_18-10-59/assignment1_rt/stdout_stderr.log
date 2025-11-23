@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target distance[0m
+[ 50%] Built target ui_node
+[ 75%] [32mBuilding CXX object CMakeFiles/distance.dir/src/distance_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable distance[0m
+[100%] Built target distance
+-- Install configuration: ""
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/assignment1_rt/ui_node
+-- Set runtime path of "/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/assignment1_rt/ui_node" to ""
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/assignment1_rt/distance
+-- Set runtime path of "/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/assignment1_rt/distance" to ""
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt
+-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.sh
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.dsv
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.bash
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.sh
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.zsh
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.dsv
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.dsv
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake
+-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.xml

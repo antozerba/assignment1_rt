@@ -1,0 +1,1 @@
+Invoking command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anto/Condivisa/ros_ws/build/assignment1_rt -- -j4 -l4

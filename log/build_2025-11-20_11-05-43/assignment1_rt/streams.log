@@ -1,0 +1,26 @@
+[0.121s] Invoking command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anto/Condivisa/ros_ws/install/spawn:/opt/ros/humble /usr/bin/cmake --build /home/anto/Condivisa/ros_ws/build/assignment1_rt -- -j4 -l4
+[0.277s] [35m[1mConsolidate compiler generated dependencies of target ui_node[0m
+[0.605s] [ 50%] [32mBuilding CXX object CMakeFiles/ui_node.dir/src/ui_node.cpp.o[0m
+[2.976s] [100%] [32m[1mLinking CXX executable ui_node[0m
+[3.377s] [100%] Built target ui_node
+[3.401s] Invoked command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anto/Condivisa/ros_ws/install/spawn:/opt/ros/humble /usr/bin/cmake --build /home/anto/Condivisa/ros_ws/build/assignment1_rt -- -j4 -l4
+[3.429s] Invoking command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anto/Condivisa/ros_ws/install/spawn:/opt/ros/humble /usr/bin/cmake --install /home/anto/Condivisa/ros_ws/build/assignment1_rt
+[3.436s] -- Install configuration: ""
+[3.472s] -- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/assignment1_rt/ui_node
+[3.600s] -- Set runtime path of "/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/assignment1_rt/ui_node" to ""
+[3.634s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt
+[3.670s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt
+[3.690s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh
+[3.718s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv
+[3.736s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.sh
+[3.759s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.dsv
+[3.781s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.bash
+[3.802s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.sh
+[3.826s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.zsh
+[3.846s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.dsv
+[3.867s] -- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.dsv
+[3.950s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt
+[3.974s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake
+[3.993s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake
+[4.020s] -- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.xml
+[4.030s] Invoked command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anto/Condivisa/ros_ws/install/spawn:/opt/ros/humble /usr/bin/cmake --install /home/anto/Condivisa/ros_ws/build/assignment1_rt

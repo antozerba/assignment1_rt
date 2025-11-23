@@ -210,6 +210,43 @@ ui_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ui_node.dir/build.make CMakeFiles/ui_node.dir/build
 .PHONY : ui_node/fast
 
+#=============================================================================
+# Target rules for targets named distance
+
+# Build rule for target.
+distance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 distance
+.PHONY : distance
+
+# fast build rule for target.
+distance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distance.dir/build.make CMakeFiles/distance.dir/build
+.PHONY : distance/fast
+
+src/distance_node.o: src/distance_node.cpp.o
+.PHONY : src/distance_node.o
+
+# target to build an object file
+src/distance_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distance.dir/build.make CMakeFiles/distance.dir/src/distance_node.cpp.o
+.PHONY : src/distance_node.cpp.o
+
+src/distance_node.i: src/distance_node.cpp.i
+.PHONY : src/distance_node.i
+
+# target to preprocess a source file
+src/distance_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distance.dir/build.make CMakeFiles/distance.dir/src/distance_node.cpp.i
+.PHONY : src/distance_node.cpp.i
+
+src/distance_node.s: src/distance_node.cpp.s
+.PHONY : src/distance_node.s
+
+# target to generate assembly for a file
+src/distance_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/distance.dir/build.make CMakeFiles/distance.dir/src/distance_node.cpp.s
+.PHONY : src/distance_node.cpp.s
+
 src/ui_node.o: src/ui_node.cpp.o
 .PHONY : src/ui_node.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... assignment1_rt_uninstall"
 	@echo "... uninstall"
+	@echo "... distance"
 	@echo "... ui_node"
+	@echo "... src/distance_node.o"
+	@echo "... src/distance_node.i"
+	@echo "... src/distance_node.s"
 	@echo "... src/ui_node.o"
 	@echo "... src/ui_node.i"
 	@echo "... src/ui_node.s"
