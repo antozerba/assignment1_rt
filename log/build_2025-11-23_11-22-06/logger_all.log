@@ -1,0 +1,215 @@
+[0.095s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.095s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8af2fe50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8af2f880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8af2f880>>, mixin_verb=('build',))
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.129s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anto/Condivisa/ros_ws'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/assignment1_rt) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/assignment1_rt) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/assignment1_rt) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/assignment1_rt) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/assignment1_rt) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/assignment1_rt) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/assignment1_rt) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/assignment1_rt) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/assignment1_rt) by extension 'ros'
+[0.247s] DEBUG:colcon.colcon_core.package_identification:Package 'src/assignment1_rt' with type 'ros.ament_cmake' and name 'assignment1_rt'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/spawn) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/spawn) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/spawn) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/spawn) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/spawn) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/spawn) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/spawn) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/spawn) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/spawn) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spawn' with type 'ros.ament_python' and name 'spawn'
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.299s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/anto/ros2_ws/install
+[0.300s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_target' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_clean_first' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_force_configure' from command line to 'False'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'ament_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.325s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.325s] DEBUG:colcon.colcon_core.verb:Building package 'assignment1_rt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anto/Condivisa/ros_ws/build/assignment1_rt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anto/Condivisa/ros_ws/install/assignment1_rt', 'merge_install': False, 'path': '/home/anto/Condivisa/ros_ws/src/assignment1_rt', 'symlink_install': False, 'test_result_base': None}
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'spawn' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'spawn' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'spawn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'spawn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'spawn' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'spawn' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'spawn' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'spawn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'spawn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'spawn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anto/Condivisa/ros_ws/build/spawn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anto/Condivisa/ros_ws/install/spawn', 'merge_install': False, 'path': '/home/anto/Condivisa/ros_ws/src/spawn', 'symlink_install': False, 'test_result_base': None}
+[0.328s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anto/Condivisa/ros_ws/src/assignment1_rt' with build type 'ament_cmake'
+[0.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anto/Condivisa/ros_ws/src/assignment1_rt'
+[0.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.343s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/anto/Condivisa/ros_ws/src/spawn' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('spawn', 'ament_prefix_path')
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/hook/ament_prefix_path.ps1'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/hook/ament_prefix_path.dsv'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/hook/ament_prefix_path.sh'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anto/Condivisa/ros_ws/build/assignment1_rt -- -j4 -l4
+[0.623s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/anto/Condivisa/ros_ws/src/spawn'
+[0.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anto/Condivisa/ros_ws/src/spawn': PYTHONPATH=/home/anto/Condivisa/ros_ws/build/spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spawn build --build-base /home/anto/Condivisa/ros_ws/build/spawn/build install --record /home/anto/Condivisa/ros_ws/build/spawn/install.log --single-version-externally-managed install_data
+[3.537s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/spawn' for CMake module files
+[3.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anto/Condivisa/ros_ws/src/spawn' returned '0': PYTHONPATH=/home/anto/Condivisa/ros_ws/build/spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spawn build --build-base /home/anto/Condivisa/ros_ws/build/spawn/build install --record /home/anto/Condivisa/ros_ws/build/spawn/install.log --single-version-externally-managed install_data
+[3.600s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/spawn' for CMake config files
+[3.752s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/spawn/lib'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/spawn/bin'
+[3.758s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/spawn/lib/pkgconfig/spawn.pc'
+[3.760s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages'
+[3.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('spawn', 'pythonpath')
+[3.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/hook/pythonpath.ps1'
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/hook/pythonpath.dsv'
+[3.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/hook/pythonpath.sh'
+[3.818s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/spawn/bin'
+[3.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spawn)
+[3.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/package.ps1'
+[3.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/package.dsv'
+[3.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/package.sh'
+[3.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/package.bash'
+[3.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/spawn/share/spawn/package.zsh'
+[3.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anto/Condivisa/ros_ws/install/spawn/share/colcon-core/packages/spawn)
+[6.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anto/Condivisa/ros_ws/build/assignment1_rt -- -j4 -l4
+[6.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anto/Condivisa/ros_ws/build/assignment1_rt
+[7.635s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assignment1_rt)
+[7.636s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt' for CMake module files
+[7.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anto/Condivisa/ros_ws/build/assignment1_rt
+[7.727s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt' for CMake config files
+[7.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment1_rt', 'cmake_prefix_path')
+[7.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/cmake_prefix_path.ps1'
+[7.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/cmake_prefix_path.dsv'
+[7.911s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/cmake_prefix_path.sh'
+[7.929s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib'
+[7.932s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/bin'
+[7.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment1_rt', 'path')
+[7.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/path.ps1'
+[7.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/path.dsv'
+[7.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/path.sh'
+[7.984s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/pkgconfig/assignment1_rt.pc'
+[7.985s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/python3.10/site-packages'
+[7.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment1_rt', 'pythonpath')
+[7.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonpath.ps1'
+[8.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonpath.dsv'
+[8.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonpath.sh'
+[8.030s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/bin'
+[8.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment1_rt', 'pythonscriptspath')
+[8.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonscriptspath.ps1'
+[8.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonscriptspath.dsv'
+[8.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonscriptspath.sh'
+[8.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.ps1'
+[8.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.dsv'
+[8.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.sh'
+[8.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.bash'
+[8.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.zsh'
+[8.135s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/colcon-core/packages/assignment1_rt)
+[8.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assignment1_rt)
+[8.156s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt' for CMake module files
+[8.252s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt' for CMake config files
+[8.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment1_rt', 'cmake_prefix_path')
+[8.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/cmake_prefix_path.ps1'
+[8.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/cmake_prefix_path.dsv'
+[8.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/cmake_prefix_path.sh'
+[8.451s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib'
+[8.455s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/bin'
+[8.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment1_rt', 'path')
+[8.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/path.ps1'
+[8.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/path.dsv'
+[8.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/path.sh'
+[8.504s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/pkgconfig/assignment1_rt.pc'
+[8.506s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/python3.10/site-packages'
+[8.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment1_rt', 'pythonpath')
+[8.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonpath.ps1'
+[8.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonpath.dsv'
+[8.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonpath.sh'
+[8.547s] Level 1:colcon.colcon_core.environment:checking '/home/anto/Condivisa/ros_ws/install/assignment1_rt/bin'
+[8.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('assignment1_rt', 'pythonscriptspath')
+[8.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonscriptspath.ps1'
+[8.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonscriptspath.dsv'
+[8.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/hook/pythonscriptspath.sh'
+[8.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.ps1'
+[8.608s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.dsv'
+[8.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.sh'
+[8.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.bash'
+[8.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.zsh'
+[8.651s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anto/Condivisa/ros_ws/install/assignment1_rt/share/colcon-core/packages/assignment1_rt)
+[8.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.660s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.673s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.685s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anto/Condivisa/ros_ws/install/local_setup.ps1'
+[8.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anto/Condivisa/ros_ws/install/_local_setup_util_ps1.py'
+[8.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anto/Condivisa/ros_ws/install/setup.ps1'
+[8.719s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anto/Condivisa/ros_ws/install/local_setup.sh'
+[8.727s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anto/Condivisa/ros_ws/install/_local_setup_util_sh.py'
+[8.737s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anto/Condivisa/ros_ws/install/setup.sh'
+[8.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anto/Condivisa/ros_ws/install/local_setup.bash'
+[8.746s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anto/Condivisa/ros_ws/install/setup.bash'
+[8.750s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anto/Condivisa/ros_ws/install/local_setup.zsh'
+[8.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anto/Condivisa/ros_ws/install/setup.zsh'

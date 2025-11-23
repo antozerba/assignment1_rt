@@ -1,0 +1,56 @@
+[0.119s] Invoking command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anto/Condivisa/ros_ws/build/assignment1_rt -- -j4 -l4
+[0.285s] [35m[1mConsolidate compiler generated dependencies of target distance[0m
+[0.350s] [ 50%] Built target ui_node
+[0.674s] [ 75%] [32mBuilding CXX object CMakeFiles/distance.dir/src/distance_node.cpp.o[0m
+[0.958s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:6:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.959s]     6 | #include [01;35m[K"[m[Kgeometry_msgs/msg/twist.hpp
+[0.959s]       |          [01;35m[K^[m[K
+[0.959s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:6:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+[0.960s]     6 | #include [01;31m[K"geometry_msgs/msg/twist.hpp[m[K
+[0.960s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.357s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[2.358s]    25 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr turtle1_vel_pub_;
+[2.359s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[2.359s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.360s]    25 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr turtle1_vel_pub_;
+[2.361s]       |                                                [01;31m[K^[m[K
+[2.362s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.363s]    25 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K turtle1_vel_pub_;
+[2.363s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[2.364s]       |                                                            [32m[K;[m[K
+[2.365s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle1_vel_pub_[m[K’ does not name a type
+[2.366s]    25 | lcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kturtle1_vel_pub_[m[K;
+[2.367s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.367s] 
+[2.372s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[2.373s]    26 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr turtle2_vel_pub_;
+[2.374s]       |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[2.375s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.376s]    26 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr turtle2_vel_pub_;
+[2.377s]       |                                                [01;31m[K^[m[K
+[2.377s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.378s]    26 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K turtle2_vel_pub_;
+[2.379s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[2.380s]       |                                                            [32m[K;[m[K
+[2.380s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:51:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint DistanceNode::SharedPtr[m[K’
+[2.381s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:51:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint DistanceNode::SharedPtr[m[K’
+[2.382s]    25 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;36m[KSharedPtr[m[K turtle1_vel_pub_;
+[2.383s]       |                                                   [01;36m[K^~~~~~~~~[m[K
+[2.384s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle2_vel_pub_[m[K’ does not name a type
+[2.385s]    26 | lcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kturtle2_vel_pub_[m[K;
+[2.386s]       |                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.387s] 
+[2.398s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:[m[K In member function ‘[01m[Kvoid DistanceNode::stopTurtle(int)[m[K’:
+[2.399s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:47:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[2.403s]    47 |         auto stop_msg = [01;31m[Kgeometry_msgs[m[K::msg::Twist();
+[2.404s]       |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.407s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle1_vel_pub_[m[K’ was not declared in this scope
+[2.408s]    52 |             [01;31m[Kturtle1_vel_pub_[m[K->publish(stop_msg);
+[2.409s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.418s] [01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle2_vel_pub_[m[K’ was not declared in this scope
+[2.419s]    54 |             [01;31m[Kturtle2_vel_pub_[m[K->publish(stop_msg);
+[2.419s]       |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.236s] gmake[2]: *** [CMakeFiles/distance.dir/build.make:76: CMakeFiles/distance.dir/src/distance_node.cpp.o] Error 1
+[4.242s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/distance.dir/all] Error 2
+[4.242s] gmake: *** [Makefile:146: all] Error 2
+[4.244s] Invoked command in '/home/anto/Condivisa/ros_ws/build/assignment1_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anto/Condivisa/ros_ws/build/assignment1_rt -- -j4 -l4

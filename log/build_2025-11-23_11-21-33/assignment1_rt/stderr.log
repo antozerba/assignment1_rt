@@ -1,0 +1,51 @@
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:6:10:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+    6 | #include [01;35m[K"[m[Kgeometry_msgs/msg/twist.hpp
+      |          [01;35m[K^[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:6:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    6 | #include [01;31m[K"geometry_msgs/msg/twist.hpp[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+   25 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr turtle1_vel_pub_;
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr turtle1_vel_pub_;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   25 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K turtle1_vel_pub_;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle1_vel_pub_[m[K’ does not name a type
+   25 | lcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kturtle1_vel_pub_[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+   26 |     rclcpp::Publisher<[01;31m[Kgeometry_msgs[m[K::msg::Twist>::SharedPtr turtle2_vel_pub_;
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   26 |     rclcpp::Publisher<geometry_msgs::msg::Twist[01;31m[K>[m[K::SharedPtr turtle2_vel_pub_;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   26 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;31m[KSharedPtr[m[K turtle2_vel_pub_;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:51:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint DistanceNode::SharedPtr[m[K’
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:25:51:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint DistanceNode::SharedPtr[m[K’
+   25 |     rclcpp::Publisher<geometry_msgs::msg::Twist>::[01;36m[KSharedPtr[m[K turtle1_vel_pub_;
+      |                                                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:26:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle2_vel_pub_[m[K’ does not name a type
+   26 | lcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr [01;31m[Kturtle2_vel_pub_[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:[m[K In member function ‘[01m[Kvoid DistanceNode::stopTurtle(int)[m[K’:
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:47:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+   47 |         auto stop_msg = [01;31m[Kgeometry_msgs[m[K::msg::Twist();
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle1_vel_pub_[m[K’ was not declared in this scope
+   52 |             [01;31m[Kturtle1_vel_pub_[m[K->publish(stop_msg);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anto/Condivisa/ros_ws/src/assignment1_rt/src/distance_node.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle2_vel_pub_[m[K’ was not declared in this scope
+   54 |             [01;31m[Kturtle2_vel_pub_[m[K->publish(stop_msg);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/distance.dir/build.make:76: CMakeFiles/distance.dir/src/distance_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/distance.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
