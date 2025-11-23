@@ -1,0 +1,25 @@
+[3.639s] Invoking command in '/home/anto/Condivisa/ros_ws/src/spawn': PYTHONPATH=/home/anto/Condivisa/ros_ws/build/spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spawn build --build-base /home/anto/Condivisa/ros_ws/build/spawn/build install --record /home/anto/Condivisa/ros_ws/build/spawn/install.log --single-version-externally-managed install_data
+[5.226s] running egg_info
+[5.259s] writing ../../build/spawn/spawn.egg-info/PKG-INFO
+[5.274s] writing dependency_links to ../../build/spawn/spawn.egg-info/dependency_links.txt
+[5.279s] writing entry points to ../../build/spawn/spawn.egg-info/entry_points.txt
+[5.284s] writing requirements to ../../build/spawn/spawn.egg-info/requires.txt
+[5.289s] writing top-level names to ../../build/spawn/spawn.egg-info/top_level.txt
+[5.397s] reading manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'
+[5.492s] writing manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'
+[5.500s] running build
+[5.501s] running build_py
+[5.521s] copying spawn/__init__.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn
+[5.551s] copying spawn/turtle_spawn.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn
+[5.573s] running install
+[5.575s] running install_lib
+[5.768s] running install_data
+[5.804s] copying resource/spawn -> /home/anto/Condivisa/ros_ws/install/spawn/share/ament_index/resource_index/packages
+[5.848s] copying package.xml -> /home/anto/Condivisa/ros_ws/install/spawn/share/spawn
+[5.862s] running install_egg_info
+[5.910s] removing '/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn-0.0.0-py3.10.egg-info' (and everything under it)
+[5.996s] Copying ../../build/spawn/spawn.egg-info to /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn-0.0.0-py3.10.egg-info
+[6.304s] running install_scripts
+[6.399s] Installing turtle_spawn script to /home/anto/Condivisa/ros_ws/install/spawn/lib/spawn
+[6.418s] writing list of installed files to '/home/anto/Condivisa/ros_ws/build/spawn/install.log'
+[6.437s] Invoked command in '/home/anto/Condivisa/ros_ws/src/spawn' returned '0': PYTHONPATH=/home/anto/Condivisa/ros_ws/build/spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/spawn build --build-base /home/anto/Condivisa/ros_ws/build/spawn/build install --record /home/anto/Condivisa/ros_ws/build/spawn/install.log --single-version-externally-managed install_data

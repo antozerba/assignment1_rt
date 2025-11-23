@@ -15,7 +15,9 @@ class DistanceNode : public rclcpp::Node {
         subscriber2_ = this->create_subscription<turtlesim::msg::Pose>
         ("/turtle2/pose", 10, std::bind(&DistanceNode::gettin_pose2, this, std::placeholders::_1));
         pub = this->create_publisher<std_msgs::msg::Float32>("/distance", 10);
-        timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&DistanceNode::distance_callback,this));
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&DistanceNode::distance_callback,this));
+        turtle1_vel_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel",10);
+        turtle2_vel_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle2/cmd_vel",10);
 
     }
     private:
@@ -28,8 +30,14 @@ class DistanceNode : public rclcpp::Node {
     turtlesim::msg::Pose pose1;
     turtlesim::msg::Pose pose2;
     double  distance;
-    double tresh;
+    double bound_max = 10.0;
+    double bound_min = 1.0;
+    double tresh = 0.5;
 
+    bool boundaries(const turtlesim::msg::Pose pose ){
+        return (pose.x < bound_min || pose.x > bound_max ||
+                pose.y < bound_min || pose.y > bound_max );
+    }
     void gettin_pose1(const turtlesim::msg::Pose::SharedPtr pose){
         pose1.x = pose -> x;
         pose1.y = pose -> y;
@@ -43,12 +51,12 @@ class DistanceNode : public rclcpp::Node {
                      std::pow(pose1.y - pose2.y, 2));
         RCLCPP_INFO(this->get_logger(), "DISTANCE COMPUTED");
     }
-    void stopTurtle(int turtle_num) {
+    void stop(int turtle) {
         auto stop_msg = geometry_msgs::msg::Twist();
         stop_msg.linear.x = 0.0;
-        stop_msg.angular.z = 0.0;
+        stop_msg.linear.y = 0.0;
 
-        if (turtle_num == 1) {
+        if (turtle == 1) {
             turtle1_vel_pub_->publish(stop_msg);
         } else {
             turtle2_vel_pub_->publish(stop_msg);
@@ -66,9 +74,15 @@ class DistanceNode : public rclcpp::Node {
         }
         if (distance < tresh) {
                 RCLCPP_INFO(this->get_logger(), "Turtles too close! Distance: %.2f", distance);
-                stopTurtle(1);
-                stopTurtle(2);
+                stop(1);
+                stop(2);
             }
+        if(boundaries(pose1)){
+            stop(1);
+        }
+        if(boundaries(pose2)){
+            stop(2);
+        }
     
     }
 

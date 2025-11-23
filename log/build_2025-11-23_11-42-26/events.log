@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000333] (assignment1_rt) JobQueued: {'identifier': 'assignment1_rt', 'dependencies': OrderedDict()}
+[0.000698] (spawn) JobQueued: {'identifier': 'spawn', 'dependencies': OrderedDict()}
+[0.001016] (assignment1_rt) JobStarted: {'identifier': 'assignment1_rt'}
+[0.082904] (spawn) JobStarted: {'identifier': 'spawn'}
+[0.098710] (-) TimerEvent: {}
+[0.199146] (-) TimerEvent: {}
+[0.210584] (assignment1_rt) JobProgress: {'identifier': 'assignment1_rt', 'progress': 'cmake'}
+[0.235358] (assignment1_rt) JobProgress: {'identifier': 'assignment1_rt', 'progress': 'build'}
+[0.239899] (assignment1_rt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anto/Condivisa/ros_ws/build/assignment1_rt', '--', '-j4', '-l4'], 'cwd': '/home/anto/Condivisa/ros_ws/build/assignment1_rt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anto/ros2_ws/install/sensingrigs_communicator/lib:/home/anto/ros2_ws/install/modem_communication/lib:/home/anto/ros2_ws/desert/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anto/Condivisa/ros_ws/install:/home/anto/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/anto/Condivisa/ros_ws/install/assignment1_rt/bin:/home/anto/ros2_ws/desert/bin:/opt/ros/humble/bin:/home/anto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anto:@/tmp/.ICE-unix/1881,unix/anto:/tmp/.ICE-unix/1881'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18e887f7_4b0a_44ea_9563_5892086ff8c6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3YCPG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anto/Condivisa/ros_ws/install/spawn:/home/anto/Condivisa/ros_ws/install/assignment1_rt:/home/anto/ros2_ws/install/sensingrigs_communicator:/home/anto/ros2_ws/install/modem_communication:/home/anto/ros2_ws/install/bluerov_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anto/Condivisa/ros_ws/build/assignment1_rt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages:/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/python3.10/site-packages:/home/anto/ros2_ws/install/sensingrigs_communicator/local/lib/python3.10/dist-packages:/home/anto/ros2_ws/install/modem_communication/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anto/Condivisa/ros_ws/install/assignment1_rt:/home/anto/ros2_ws/install/sensingrigs_communicator:/home/anto/ros2_ws/install/modem_communication:/home/anto/ros2_ws/install/bluerov_controller:/home/anto/Condivisa/ros_ws/install/spawn:/opt/ros/humble')]), 'shell': False}
+[0.299294] (-) TimerEvent: {}
+[0.399720] (-) TimerEvent: {}
+[0.439136] (assignment1_rt) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target distance\x1b[0m\n'}
+[0.492931] (assignment1_rt) StdoutLine: {'line': b'[ 50%] Built target ui_node\n'}
+[0.499826] (-) TimerEvent: {}
+[0.600271] (-) TimerEvent: {}
+[0.700800] (-) TimerEvent: {}
+[0.801379] (-) TimerEvent: {}
+[0.902034] (-) TimerEvent: {}
+[0.927863] (assignment1_rt) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/distance.dir/src/distance_node.cpp.o\x1b[0m\n'}
+[1.002148] (-) TimerEvent: {}
+[1.102782] (-) TimerEvent: {}
+[1.203229] (-) TimerEvent: {}
+[1.303882] (-) TimerEvent: {}
+[1.404410] (-) TimerEvent: {}
+[1.504844] (-) TimerEvent: {}
+[1.605295] (-) TimerEvent: {}
+[1.705975] (-) TimerEvent: {}
+[1.807117] (-) TimerEvent: {}
+[1.907671] (-) TimerEvent: {}
+[2.008244] (-) TimerEvent: {}
+[2.109206] (-) TimerEvent: {}
+[2.210512] (-) TimerEvent: {}
+[2.311008] (-) TimerEvent: {}
+[2.411630] (-) TimerEvent: {}
+[2.512091] (-) TimerEvent: {}
+[2.612520] (-) TimerEvent: {}
+[2.713735] (-) TimerEvent: {}
+[2.814345] (-) TimerEvent: {}
+[2.914874] (-) TimerEvent: {}
+[3.015278] (-) TimerEvent: {}
+[3.116719] (-) TimerEvent: {}
+[3.217207] (-) TimerEvent: {}
+[3.318288] (-) TimerEvent: {}
+[3.418755] (-) TimerEvent: {}
+[3.519309] (-) TimerEvent: {}
+[3.619722] (-) TimerEvent: {}
+[3.708646] (spawn) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/spawn', 'build', '--build-base', '/home/anto/Condivisa/ros_ws/build/spawn/build', 'install', '--record', '/home/anto/Condivisa/ros_ws/build/spawn/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/anto/Condivisa/ros_ws/src/spawn', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'anto', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/anto/ros2_ws/install/sensingrigs_communicator/lib:/home/anto/ros2_ws/install/modem_communication/lib:/home/anto/ros2_ws/desert/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anto', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2384', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anto/Condivisa/ros_ws/install:/home/anto/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anto', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anto', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/anto/Condivisa/ros_ws/install/assignment1_rt/bin:/home/anto/ros2_ws/desert/bin:/opt/ros/humble/bin:/home/anto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anto:@/tmp/.ICE-unix/1881,unix/anto:/tmp/.ICE-unix/1881', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/18e887f7_4b0a_44ea_9563_5892086ff8c6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3YCPG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anto/Condivisa/ros_ws/install/spawn:/home/anto/Condivisa/ros_ws/install/assignment1_rt:/home/anto/ros2_ws/install/sensingrigs_communicator:/home/anto/ros2_ws/install/modem_communication:/home/anto/ros2_ws/install/bluerov_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anto/Condivisa/ros_ws/build/spawn', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anto/Condivisa/ros_ws/build/spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages:/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages:/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/python3.10/site-packages:/home/anto/ros2_ws/install/sensingrigs_communicator/local/lib/python3.10/dist-packages:/home/anto/ros2_ws/install/modem_communication/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/anto/Condivisa/ros_ws/install/assignment1_rt:/home/anto/ros2_ws/install/sensingrigs_communicator:/home/anto/ros2_ws/install/modem_communication:/home/anto/ros2_ws/install/bluerov_controller'}, 'shell': False}
+[3.723064] (-) TimerEvent: {}
+[3.823485] (-) TimerEvent: {}
+[3.923899] (-) TimerEvent: {}
+[4.024454] (-) TimerEvent: {}
+[4.126486] (-) TimerEvent: {}
+[4.226905] (-) TimerEvent: {}
+[4.327433] (-) TimerEvent: {}
+[4.427960] (-) TimerEvent: {}
+[4.528464] (-) TimerEvent: {}
+[4.629748] (-) TimerEvent: {}
+[4.730307] (-) TimerEvent: {}
+[4.832002] (-) TimerEvent: {}
+[4.932471] (-) TimerEvent: {}
+[5.032969] (-) TimerEvent: {}
+[5.138137] (-) TimerEvent: {}
+[5.238758] (-) TimerEvent: {}
+[5.308329] (spawn) StdoutLine: {'line': b'running egg_info\n'}
+[5.338958] (-) TimerEvent: {}
+[5.341319] (spawn) StdoutLine: {'line': b'writing ../../build/spawn/spawn.egg-info/PKG-INFO\n'}
+[5.355877] (spawn) StdoutLine: {'line': b'writing dependency_links to ../../build/spawn/spawn.egg-info/dependency_links.txt\n'}
+[5.361387] (spawn) StdoutLine: {'line': b'writing entry points to ../../build/spawn/spawn.egg-info/entry_points.txt\n'}
+[5.366353] (spawn) StdoutLine: {'line': b'writing requirements to ../../build/spawn/spawn.egg-info/requires.txt\n'}
+[5.370028] (spawn) StdoutLine: {'line': b'writing top-level names to ../../build/spawn/spawn.egg-info/top_level.txt\n'}
+[5.440082] (-) TimerEvent: {}
+[5.476438] (spawn) StdoutLine: {'line': b"reading manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'\n"}
+[5.540243] (-) TimerEvent: {}
+[5.574271] (spawn) StdoutLine: {'line': b"writing manifest file '../../build/spawn/spawn.egg-info/SOURCES.txt'\n"}
+[5.582426] (spawn) StdoutLine: {'line': b'running build\n'}
+[5.583240] (spawn) StdoutLine: {'line': b'running build_py\n'}
+[5.603441] (spawn) StdoutLine: {'line': b'copying spawn/__init__.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn\n'}
+[5.632871] (spawn) StdoutLine: {'line': b'copying spawn/turtle_spawn.py -> /home/anto/Condivisa/ros_ws/build/spawn/build/lib/spawn\n'}
+[5.640811] (-) TimerEvent: {}
+[5.655002] (spawn) StdoutLine: {'line': b'running install\n'}
+[5.657666] (spawn) StdoutLine: {'line': b'running install_lib\n'}
+[5.741022] (-) TimerEvent: {}
+[5.842509] (-) TimerEvent: {}
+[5.850388] (spawn) StdoutLine: {'line': b'running install_data\n'}
+[5.886011] (spawn) StdoutLine: {'line': b'copying resource/spawn -> /home/anto/Condivisa/ros_ws/install/spawn/share/ament_index/resource_index/packages\n'}
+[5.930307] (spawn) StdoutLine: {'line': b'copying package.xml -> /home/anto/Condivisa/ros_ws/install/spawn/share/spawn\n'}
+[5.942719] (-) TimerEvent: {}
+[5.944718] (spawn) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.992612] (spawn) StdoutLine: {'line': b"removing '/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.042948] (-) TimerEvent: {}
+[6.078786] (spawn) StdoutLine: {'line': b'Copying ../../build/spawn/spawn.egg-info to /home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages/spawn-0.0.0-py3.10.egg-info\n'}
+[6.143699] (-) TimerEvent: {}
+[6.244078] (-) TimerEvent: {}
+[6.344799] (-) TimerEvent: {}
+[6.386628] (spawn) StdoutLine: {'line': b'running install_scripts\n'}
+[6.445492] (-) TimerEvent: {}
+[6.479818] (spawn) StdoutLine: {'line': b'Installing turtle_spawn script to /home/anto/Condivisa/ros_ws/install/spawn/lib/spawn\n'}
+[6.500796] (spawn) StdoutLine: {'line': b"writing list of installed files to '/home/anto/Condivisa/ros_ws/build/spawn/install.log'\n"}
+[6.519512] (spawn) CommandEnded: {'returncode': 0}
+[6.546226] (-) TimerEvent: {}
+[6.646725] (-) TimerEvent: {}
+[6.747192] (-) TimerEvent: {}
+[6.852685] (-) TimerEvent: {}
+[6.895674] (spawn) JobEnded: {'identifier': 'spawn', 'rc': 0}
+[6.955509] (-) TimerEvent: {}
+[7.057740] (-) TimerEvent: {}
+[7.159165] (-) TimerEvent: {}
+[7.262744] (-) TimerEvent: {}
+[7.363988] (-) TimerEvent: {}
+[7.465344] (-) TimerEvent: {}
+[7.565727] (-) TimerEvent: {}
+[7.669388] (-) TimerEvent: {}
+[7.769795] (-) TimerEvent: {}
+[7.870735] (-) TimerEvent: {}
+[7.971108] (-) TimerEvent: {}
+[8.027912] (assignment1_rt) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable distance\x1b[0m\n'}
+[8.071212] (-) TimerEvent: {}
+[8.172295] (-) TimerEvent: {}
+[8.272736] (-) TimerEvent: {}
+[8.373215] (-) TimerEvent: {}
+[8.474004] (-) TimerEvent: {}
+[8.574463] (-) TimerEvent: {}
+[8.675092] (-) TimerEvent: {}
+[8.775640] (-) TimerEvent: {}
+[8.876059] (-) TimerEvent: {}
+[8.976490] (-) TimerEvent: {}
+[9.061410] (assignment1_rt) StdoutLine: {'line': b'[100%] Built target distance\n'}
+[9.076589] (-) TimerEvent: {}
+[9.091259] (assignment1_rt) CommandEnded: {'returncode': 0}
+[9.109045] (assignment1_rt) JobProgress: {'identifier': 'assignment1_rt', 'progress': 'install'}
+[9.120446] (assignment1_rt) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anto/Condivisa/ros_ws/build/assignment1_rt'], 'cwd': '/home/anto/Condivisa/ros_ws/build/assignment1_rt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anto/ros2_ws/install/sensingrigs_communicator/lib:/home/anto/ros2_ws/install/modem_communication/lib:/home/anto/ros2_ws/desert/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anto/Condivisa/ros_ws/install:/home/anto/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/anto/Condivisa/ros_ws/install/assignment1_rt/bin:/home/anto/ros2_ws/desert/bin:/opt/ros/humble/bin:/home/anto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anto:@/tmp/.ICE-unix/1881,unix/anto:/tmp/.ICE-unix/1881'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/18e887f7_4b0a_44ea_9563_5892086ff8c6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3YCPG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anto/Condivisa/ros_ws/install/spawn:/home/anto/Condivisa/ros_ws/install/assignment1_rt:/home/anto/ros2_ws/install/sensingrigs_communicator:/home/anto/ros2_ws/install/modem_communication:/home/anto/ros2_ws/install/bluerov_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anto/Condivisa/ros_ws/build/assignment1_rt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anto/Condivisa/ros_ws/install/spawn/lib/python3.10/site-packages:/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/python3.10/site-packages:/home/anto/ros2_ws/install/sensingrigs_communicator/local/lib/python3.10/dist-packages:/home/anto/ros2_ws/install/modem_communication/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anto/Condivisa/ros_ws/install/assignment1_rt:/home/anto/ros2_ws/install/sensingrigs_communicator:/home/anto/ros2_ws/install/modem_communication:/home/anto/ros2_ws/install/bluerov_controller:/home/anto/Condivisa/ros_ws/install/spawn:/opt/ros/humble')]), 'shell': False}
+[9.128554] (assignment1_rt) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.163573] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/assignment1_rt/ui_node\n'}
+[9.176696] (-) TimerEvent: {}
+[9.240596] (assignment1_rt) StdoutLine: {'line': b'-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/assignment1_rt/distance\n'}
+[9.276785] (-) TimerEvent: {}
+[9.377138] (-) TimerEvent: {}
+[9.477561] (-) TimerEvent: {}
+[9.494528] (assignment1_rt) StdoutLine: {'line': b'-- Set runtime path of "/home/anto/Condivisa/ros_ws/install/assignment1_rt/lib/assignment1_rt/distance" to ""\n'}
+[9.529220] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt\n'}
+[9.566239] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt\n'}
+[9.577649] (-) TimerEvent: {}
+[9.584521] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh\n'}
+[9.607721] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv\n'}
+[9.626210] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.sh\n'}
+[9.650288] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/environment/path.dsv\n'}
+[9.671007] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.bash\n'}
+[9.677731] (-) TimerEvent: {}
+[9.693088] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.sh\n'}
+[9.715833] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.zsh\n'}
+[9.736278] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/local_setup.dsv\n'}
+[9.753555] (assignment1_rt) StdoutLine: {'line': b'-- Installing: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.dsv\n'}
+[9.777814] (-) TimerEvent: {}
+[9.829327] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt\n'}
+[9.854518] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake\n'}
+[9.871272] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake\n'}
+[9.879288] (-) TimerEvent: {}
+[9.891622] (assignment1_rt) StdoutLine: {'line': b'-- Up-to-date: /home/anto/Condivisa/ros_ws/install/assignment1_rt/share/assignment1_rt/package.xml\n'}
+[9.900951] (assignment1_rt) CommandEnded: {'returncode': 0}
+[9.979397] (-) TimerEvent: {}
+[10.079743] (-) TimerEvent: {}
+[10.180046] (-) TimerEvent: {}
+[10.280412] (-) TimerEvent: {}
+[10.380794] (-) TimerEvent: {}
+[10.481217] (-) TimerEvent: {}
+[10.583780] (-) TimerEvent: {}
+[10.684190] (-) TimerEvent: {}
+[10.784567] (-) TimerEvent: {}
+[10.884903] (-) TimerEvent: {}
+[10.962364] (assignment1_rt) JobEnded: {'identifier': 'assignment1_rt', 'rc': 0}
+[10.969325] (-) EventReactorShutdown: {}
