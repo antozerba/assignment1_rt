@@ -12,16 +12,18 @@ class UINode : public rclcpp::Node {
     public:
     UINode() : Node("ui_node"){
         RCLCPP_INFO(this->get_logger(), "Velocity Input Node has been started.");
-        // getting_input();
-        // std::string topic;
-        // if(turtle.compare("1")==0) topic = "/turtle1";
-        // if(turtle.compare("2")==0) turtle = "/turtle2";
-        // topic = topic+ "/cmd_vel";
-        // std::cout << topic << std::endl;
         publisher1_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
         publisher2_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle2/cmd_vel", 10);
-        timer_ = this->create_wall_timer(std::chrono::seconds(1),std::bind(&UINode::call_back, this) );
+
     }
+    void run(){
+        while(rclcpp::ok())
+        {
+            getting_input();
+            sendVelocity(std::stof(turtle));
+        }
+    }
+
     private:
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher1_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher2_;
@@ -30,28 +32,31 @@ class UINode : public rclcpp::Node {
     std::string linear_vel;
     std::string angular_vel;
 
-    void call_back(){
-        getting_input();
-        if(turtle.compare("2")){
-            geometry_msgs::msg::Twist msg;
-            msg.linear.x = std::stof(linear_vel);
-            msg.angular.x = std::stof(angular_vel);
-            publisher2_->publish(msg);
-            usleep(100000);
-            geometry_msgs::msg::Twist msg_zero;
-            publisher2_->publish(msg_zero);
-        }
-        if(turtle.compare("1")){
-            geometry_msgs::msg::Twist msg;
-            msg.linear.x = std::stof(linear_vel);
-            msg.angular.x = std::stof(angular_vel);
-            publisher1_->publish(msg);
-            usleep(100000);
-            geometry_msgs::msg::Twist msg_zero;
-            publisher1_->publish(msg_zero);
+    void sendVelocity(int turtle_choice){
+        geometry_msgs::msg::Twist twist;
+        twist.linear.x = std::stof(linear_vel);
+        twist.linear.y = 0.0;
+        twist.linear.z = 0.0;
+        twist.angular.x = 0.0;
+        twist.angular.y = 0.0;
+        twist.angular.z = std::stof(angular_vel);
+
+        auto publisher = (turtle_choice == 1) ? publisher1_ : publisher2_;
+    
+        auto start_time = this->now();
+        rclcpp::Rate rate(std::chrono::milliseconds(10));
+        
+        while ((this->now() - start_time).seconds() < 1.0) {
+            publisher->publish(twist);
+            rclcpp::spin_some(this->get_node_base_interface());
+            rate.sleep();
         }
 
+        twist.linear.x = 0.0;
+        twist.angular.z = 0.0;
+        publisher->publish(twist);
     }
+
     
     void getting_input(){
         std::cout << "Choose turtle: " << std::endl;
@@ -62,12 +67,14 @@ class UINode : public rclcpp::Node {
         std::cin >> angular_vel;
     };
 
+
 };
 
 int main(int argc, char * argv[]){
 
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<UINode>());
+    std::shared_ptr<UINode> node = std::make_shared<UINode>();
+    node ->run();
     rclcpp::shutdown();
     return 0;
 
