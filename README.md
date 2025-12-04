@@ -57,7 +57,7 @@ ros2 run assignment1_rt turtle_spawn.py
 In a third terminal:
 
 ```bash
-ros2 run assignment1_rt distance_node
+ros2 run assignment1_rt distance
 ```
 
 ### 4. Start the UI control node
