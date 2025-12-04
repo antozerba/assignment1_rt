@@ -18,10 +18,10 @@ A collision-avoidance control system for two TurtleSim turtles with automatic bo
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/antozerba/assignment1_rt.git
+git clone https://github.com/antozerba/assignment1_rt_pkg.git
 ```
 
-2. **Build the workspace:**
+2. **Build the workspace:**s
 
 ```bash
 cd ~/ros2_ws
